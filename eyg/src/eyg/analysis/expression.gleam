@@ -13,7 +13,7 @@ pub type Expression {
   Vacant
 
   // Row
-  // Record(fields: List(#()), Option(String))
+  Record(fields: List(#()), Option(String))
   Select(label: String)
 
   Tag(label: String)

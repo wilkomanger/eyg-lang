@@ -63,7 +63,7 @@ pub fn infer(env, exp, typ, eff, ref) {
     e.Vacant -> sub.none()
 
     // Record
-    // e.Record(_, None) -> todo
+    e.Record(_, None) -> todo
     //   // let #(sjs1, row) =
     //   //   list.fold(
     //   //     fields,
